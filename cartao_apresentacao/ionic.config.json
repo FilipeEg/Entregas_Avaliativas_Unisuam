@@ -1,0 +1,7 @@
+{
+  "name": "cartao_apresentacao",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
