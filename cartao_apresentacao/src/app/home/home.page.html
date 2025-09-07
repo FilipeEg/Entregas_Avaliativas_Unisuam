@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Nome e Info
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-avatar id="foto">
+    <img alt="Silhouette of a person's head" src=".\assets\img2.jpg" />
+  </ion-avatar>
+
+  <ion-button (click)='ShowPageInfo()' id="link">Informações</ion-button>
+  <div id="container">
+    <strong>Informações Sobre Mim</strong>
+    <table align="center">
+      <tr>
+        <th>Nome:</th>
+        <th>Filipe Eugênio Marriel</th>
+      </tr>
+      <tr>
+        <th>Matrícula:</th>
+        <th>24106134</th>
+      </tr>
+    </table>
+  </div>
+</ion-content>
